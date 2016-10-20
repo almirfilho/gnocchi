@@ -4,4 +4,4 @@ module.exports = (grunt) ->
       src: 'test/**/*-test.js'
       options:
         reporter: 'nyan'
-        require: 'grunt-babel/node_modules/babel-core/register'
+        require: 'babel-core/register'
